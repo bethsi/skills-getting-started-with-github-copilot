@@ -114,6 +114,33 @@ button:hover {
   border-radius: 4px;
 }
 
+/* participants list inside activity card */
+.participants-section {
+  margin-top: 10px;
+}
+.participants-list {
+  margin-top: 5px;
+  margin-left: 20px;
+  padding-left: 0;
+  list-style-type: none;
+  color: #444;
+}
+.remove-icon {
+  margin-left: 10px;
+  color: #c62828;
+  cursor: pointer;
+  font-weight: bold;
+}
+.remove-icon:hover {
+  color: #ab000d;
+}
+.no-participants {
+  margin-top: 5px;
+  margin-left: 20px;
+  font-style: italic;
+  color: #888;
+}
+
 .success {
   background-color: #e8f5e9;
   color: #2e7d32;
